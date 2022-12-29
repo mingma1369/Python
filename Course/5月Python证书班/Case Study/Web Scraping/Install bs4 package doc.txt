@@ -1,0 +1,10 @@
+Install:
+1. Quit anaconda completely. This includes web browser jupyter notebook page, anaconda application and Command(Win)/terminal(Mac) applicaition.
+2. Open Command(Win) or terminal(Mac)
+3. Type "conda install -c anaconda beautifulsoup4" (This may take a few minutes to response)
+4. Follow the installation instruction on Command/terminal, you may need to type "y" to continue
+
+Test if bs4 is already installed on your anaconda
+1. Open a new jupyter notebook
+2. Type "from bs4 import BeautifulSoup" and hit shift + enter to run.
+3. If no error raised, you are good to go.
