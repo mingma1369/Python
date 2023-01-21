@@ -297,13 +297,7 @@ import datetime
 print (datetime.date.today())
 
 
-import datetime 
-currentDate = datetime.date.today() 
-print (currentDate) 
-print (currentDate.year) 
-print (currentDate.month) 
-print (currentDate.day)
-
+ 
 import datetime 
 currentDate = datetime.date.today() 
 #strftime allows you to specify the date format 
@@ -425,7 +419,7 @@ import turtle
 turtle.forward(100)
 
 # close turtle window:
-# turtle.Screen().bye()
+turtle.Screen().bye()
     
 #%%
 import turtle
